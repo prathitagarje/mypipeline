@@ -17,7 +17,7 @@ pipeline {
 	stage('Production') {
             steps {
                 echo 'I am in Production'
-				sh 'docer --version'
+				sh 'docker --version'
             }
         }
     }
