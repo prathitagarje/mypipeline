@@ -11,7 +11,7 @@ pipeline {
 	stage('Testing') {
             steps {
                 echo 'I am in Testing'
-				sh 'python --version'
+				sh 'python3 --version'
             }
         }
 	stage('Production') {
